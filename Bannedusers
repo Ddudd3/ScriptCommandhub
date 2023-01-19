@@ -12,7 +12,7 @@ var pban9 = ""
 var pban10 = ""
 --------------------PERM BANS ABOVE (UNREMOVEABLE BANS)------------------------------------------
 ---------------------TEMP BANS BELOW (REMOVEABLE BANS)-------------------------------------------
-var ban1 = ""
+var ban1 = "JvsKvrofs4-BdwJruNA&P"
 var ban2 = ""
 var ban3 = ""
 var ban4 = ""
@@ -34,6 +34,7 @@ localStorage.setItem("k","1")
 }
 if(CB!=ban1,ban2,ban3,ban4,ban5,ban6,ban7,ban8,ban9,ban10){
 localStorage.removeItem("k")
+localStorage.removeItem("UID")
 }
 if(k!=1){
 localStorage.removeItem("UID")
