@@ -1,7 +1,7 @@
 var wl = "true"
 
 var Uida = localStorage.getItem("UID")
-var login1 = "JvsKvrofs4-BdwJruNA&P" //Me On the windows pc
+var login1 = "" //Me On the windows pc
 var login2 = ""
 var login3 = ""
 var login4 = ""
