@@ -1,8 +1,6 @@
 var Uida = localStorage.getItem("UID")
-var me1 = "9H9cwXbGKT-GdOAObZ0tn"
-var me2 = "mGyhos5oko-Yk1VFRGsED"
-var login1 = ""
-var login2 = ""
+var login1 = "9H9cwXbGKT-GdOAObZ0tn"
+var login2 = "mGyhos5oko-Yk1VFRGsED"
 var login3 = ""
 var login4 = ""
 var login5 = ""
@@ -11,7 +9,8 @@ var login7 = ""
 var login8 = ""
 var login9 = ""
 var login10 = ""
-if(Uida=me1,me2,login1,login2,login3,login4,login5,login6,login7,login8,login9,login10){
+if(Uida=login1,login2,login3,login4,login5,login6,login7,login8,login9,login10){
+alert("granted")
 }else{
 window.close()
 }
