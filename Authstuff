@@ -1,0 +1,25 @@
+var wl = "true"
+
+var Uida = localStorage.getItem("UID")
+var login1 = "JvsKvrofs4-BdwJruNA&P" //Me On the windows pc
+var login2 = ""
+var login3 = ""
+var login4 = ""
+var login5 = ""
+var login6 = ""
+var login7 = ""
+var login8 = ""
+var login9 = ""
+var login10 = ""
+ if(Uida="Banned"){
+ var j = window.open()
+ j.document.title = "BANNED, DO NOT COME BACK!"
+ window.close()
+ }
+if(wl="true"){
+  if(Uida!=login1,login2,login3,login4,login5,login6,login7,login8,login9,login10){
+  window.close()
+  }else{
+  alert("Access Granted")
+  }
+}
