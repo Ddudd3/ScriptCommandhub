@@ -1,0 +1,21 @@
+var CB = localStorage.getItem("UID")
+var ban1 = ""
+var ban2 = ""
+var ban3 = ""
+var ban4 = ""
+var ban5 = ""
+var ban6 = ""
+var ban7 = ""
+var ban8 = ""
+var ban9 = ""
+var ban10 = ""
+if(CB=ban1,ban2,ban3,ban4,ban5,ban6,ban7,ban8,ban9,ban10){
+localStorage.removeItem("UID")
+localStorage.setItem("UID","BANNED")
+localStorage.setItem("USER","BANNED")
+}
+if(CB="BANNED"){
+var j = window.open()
+j.document.title = "BANNED PERMENATELY, DO NOT COME BACK!"
+window.close()
+}
