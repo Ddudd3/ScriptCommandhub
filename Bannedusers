@@ -1,4 +1,17 @@
 var CB = localStorage.getItem("UID")
+var k = localStorage.getItem("k")
+var pban1 = ""
+var pban2 = ""
+var pban3 = ""
+var pban4 = ""
+var pban5 = ""
+var pban6 = ""
+var pban7 = ""
+var pban8 = ""
+var pban9 = ""
+var pban10 = ""
+--------------------PERM BANS ABOVE (UNREMOVEABLE BANS)------------------------------------------
+---------------------TEMP BANS BELOW (REMOVEABLE BANS)-------------------------------------------
 var ban1 = ""
 var ban2 = ""
 var ban3 = ""
@@ -9,12 +22,29 @@ var ban7 = ""
 var ban8 = ""
 var ban9 = ""
 var ban10 = ""
+if(CB=pban1,pban2,pban3,pban4,pban5,pban6,pban7,pban8,pban9,pban10){
+localStorage.removeItem("UID")
+localStorage.setItem("UID","BANNED")
+localStorage.setItem("PERM","BANNED")
+}
 if(CB=ban1,ban2,ban3,ban4,ban5,ban6,ban7,ban8,ban9,ban10){
 localStorage.removeItem("UID")
 localStorage.setItem("UID","BANNED")
-localStorage.setItem("USER","BANNED")
+localStorage.setItem("k","1")
+}
+if(CB!=ban1,ban2,ban3,ban4,ban5,ban6,ban7,ban8,ban9,ban10){
+localStorage.removeItem("k")
+}
+if(k!=1){
+localStorage.removeItem("UID")
+localStorage.removeItem("k")
 }
 if(CB="BANNED"){
+var j = window.open()
+j.document.title = "BANNED PERMENATELY, DO NOT COME BACK!"
+window.close()
+}
+if(PERM="BANNED"){
 var j = window.open()
 j.document.title = "BANNED PERMENATELY, DO NOT COME BACK!"
 window.close()
