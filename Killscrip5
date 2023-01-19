@@ -1,0 +1,16 @@
+//--------------------reg kill--------------------
+
+var kill = "false"
+
+//--------------------perm kill--------------------
+
+var permkill = "false"
+
+//‐--------------------rest of the script--------------------
+
+if(kill="true"){
+window.close();
+}
+if(permkill="true"){
+localStorage.removeitsem("UID")
+}
