@@ -52,7 +52,6 @@ alert("granted")
 window.close()
 }
 }
-function SC(){
 if(UID=SUID1,SUID2,SUID3,SUID4,SUID5,SUID6,SUID7,SUID8,SUID9,SUID10){
 var v = window.open()
 v.document.title = "Your Account was suspended/Banned".
@@ -60,7 +59,5 @@ window.close()
 }else{ //Login Below
 H();
 }
-SC();
-
 
 
