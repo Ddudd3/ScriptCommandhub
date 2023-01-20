@@ -45,17 +45,22 @@ var SUID10 = ""
 //---------------------------(Actual code and stuff below)----------------------
 
 var UID = localStorage.getItem("UID")
-function SC(){
-if(UID=SUID1,SUID2,SUID3,SUID4,SUID5,SUID6,SUID7,SUID8,SUID9,SUID10){
-var v = window.open()
-v.document.title = "Your Account was suspended/Banned".
-window.close()
-}else{ //Login Below
+function H(){
 if(UID=login1,login2,login3,login4,login5,login6,login7,login8,login9,login10){
 alert("granted")
 }else{
 window.close()
 }
 }
+function SC(){
+if(UID=SUID1,SUID2,SUID3,SUID4,SUID5,SUID6,SUID7,SUID8,SUID9,SUID10){
+var v = window.open()
+v.document.title = "Your Account was suspended/Banned".
+window.close()
+}else{ //Login Below
+H();
+}
+SC();
+
 
 
