@@ -1,8 +1,8 @@
 //---------------------------(Autherized below)----------------------------
 
-var login1 = "9H9cwXbGKT-GdOAObZ0tn"
+var login1 = ""
 
-var login2 = "mGyhos5oko-Yk1VFRGsED"
+var login2 = ""
 
 var login3 = ""
 
@@ -44,15 +44,16 @@ var SUID10 = ""
 
 //---------------------------(Actual code and stuff below)----------------------
 
-var UID = localStorage.getItem("UID")
+var UIDJ = localStorage.getItem("UID")
 function H(){
-if(UID=login1,login2,login3,login4,login5,login6,login7,login8,login9,login10){
+if(UIDJ=login1,login2,login3,login4,login5,login6,login7,login8,login9,login10){
 alert("granted")
 }else{
+alert("UIDJ");
 window.close()
 }
 }
-if(UID=SUID1,SUID2,SUID3,SUID4,SUID5,SUID6,SUID7,SUID8,SUID9,SUID10){
+if(UIDJ=SUID1,SUID2,SUID3,SUID4,SUID5,SUID6,SUID7,SUID8,SUID9,SUID10){
 var v = window.open()
 v.document.title = "Your Account was suspended/Banned".
 window.close()
