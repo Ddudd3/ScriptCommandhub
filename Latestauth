@@ -49,7 +49,7 @@ function H(){
 if(UIDJ=login1,login2,login3,login4,login5,login6,login7,login8,login9,login10){
 alert("granted")
 }else{
-alert("UIDJ");
+alert(UIDJ);
 window.close()
 }
 }
