@@ -1,0 +1,62 @@
+//---------------------------(Autherized below)----------------------------
+
+var login1 = ""
+
+var login2 = ""
+
+var login3 = ""
+
+var login4 = ""
+
+var login5 = ""
+
+var login6 = ""
+
+var login7 = ""
+
+var login8 = ""
+
+var login9 = ""
+
+var login10 = ""
+
+//---------------------------(Suspended Below)-----------------------------
+
+var SUID1 = ""
+
+var SUID2 = ""
+
+var SUID3 = ""
+
+var SUID4 = ""
+
+var SUID5 = ""
+
+var SUID6 = ""
+
+var SUID7 = ""
+
+var SUID8 = ""
+
+var SUID9 = ""
+
+var SUID10 = ""
+
+//---------------------------(Actual code and stuff below)----------------------
+
+var UIDJ = localStorage.getItem("UID")
+function H(){
+if(UIDJ=login1,login2,login3,login4,login5,login6,login7,login8,login9,login10){
+alert("granted")
+}else{
+alert(UIDJ);
+window.close()
+}
+}
+if(UIDJ=SUID1,SUID2,SUID3,SUID4,SUID5,SUID6,SUID7,SUID8,SUID9,SUID10){
+var v = window.open()
+v.document.title = "Your Account was suspended/Banned".
+window.close()
+}else{ //Login Below
+H();
+}
